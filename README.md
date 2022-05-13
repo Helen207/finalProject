@@ -35,9 +35,8 @@ When you run ls you should see all folders and files from finalProject folder
     pip3 freeze
     ```
 ### OR you can install requirements file running
-    ```
+
     pip3  install -r requirements.txt
-    ```
 
 ## Project Settings
 * Right click on the project folder in the code editor
