@@ -1,20 +1,19 @@
 *** Variables ***
-${locator_prenosne_grily}   xpath=//div[3]/div[1]/div/div/div/div[3]/div/div/div[1]/div/div/section/div/div/div[2]/ul/li[3]
 
-${locator_50-90}       xpath=//*[@id="cena"]/div/div/div[2]/div/ul/li[2]/div/label[2]
+${tipy_na_grilovanie}     xpath=//div[@class='c-inspiration-wrapper']//*[text()='{}']
+${locator_prenosne_grily}   xpath=//div[@class='c-product__container']//*[contains(text(), '{}')]
 
-${locator_first_product}    xpath=//*[@id="root"]/div/div/div/main/section/div/ul/li[1]/section/div/div/div[2]/a
-${locator_second_product}   xpath=//*[@id="root"]/div/div/div/main/section/div/ul/li[6]/section/div/div/div[2]/a
-${locator_third_product}       xpath=//*[@id="root"]/div/div/div/main/section/div/ul/li[7]/section/div/div/div[2]/a
+${filter_second_range}      xpath=//*[@id='cena']//div[@class='c-form-cell c-form-cell--inline']/label[@for='price-2']
 
-${locator_continue_to_basket}    xpath=//*[@id="__next"]/main/div[2]/div[1]/div/div[3]/aside/div/div/div[2]/div[2]/a
+${product_name}    xpath=//section[@class='c-product']//a[@class='c-product__link' and text()='{}']
 
-${locator_close_side_cart}      xpath=//*[@id="__next"]/main/div[2]/div[1]/div/div[3]/aside/div/button
+${buy_with_heureka}     xpath=//div[@class='c-top-offer__buy']
+${locator_continue_to_basket}    xpath=//div[@class='c-cart-confirm__row c-cart-confirm__buttons']//*[text()='Prejsť do košíku']
+
+${locator_close_side_cart}      xpath=//div[@class='c-new-offscreen']/button[@class='c-new-offscreen__close e-action']
 
 ${locator_carts}      xpath=//*[@id="snippet--cart-content-data"]//div[contains(@class, 'step1__product-card')]
 
-${locator_first_price}      xpath=//*[@id="snippet--cart-content-data"]/div[3]/div/div/div[2]/div[2]/div[2]
-${locator_second_price}         xpath=//*[@id="snippet--cart-content-data"]/div[4]/div/div/div[2]/div[2]/div[2]
-${locator_third_price}         xpath=//*[@id="snippet--cart-content-data"]/div[5]/div/div/div[2]/div[2]/div[2]
+${locator_price}      xpath=//div[@data-item-id='7786771']//div[@class='c-product-card__price u-bold']
 
 ${locator_basket_price}   xpath=//*[@id="rootHead"]/ul/li[3]/a/span[2]

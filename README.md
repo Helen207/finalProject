@@ -1,13 +1,10 @@
 # How to run this project locally on your machine
 
-Firstable you need to have installed python on you machine 
-the best version is 3.9, but of course you can have latest version
-
-
+Firstable you need to have installed python on you machine:
 
 ## Local install
-* [Download python](https://www.python.org/downloads/)
-* [Chrome driver](https://www.selenium.dev/documentation/webdriver/getting_started/install_drivers/)
+* [Download python](https://www.python.org/downloads/) - recommended version is 3.9 (but it should work with last version)
+* [Chrome driver](https://www.selenium.dev/documentation/webdriver/getting_started/install_drivers/) - recommended version 101.0.4951.64
 
 * if you have homebrew for chrome driver you can use - this is easy peasy
     ```
@@ -18,6 +15,11 @@ the best version is 3.9, but of course you can have latest version
 Once you have the project open in your code editor, go to the terminal and verify that you are located in the particular project
 When you run ls you should see all folders and files from finalProject folder
 
+* create my venv  - this step is optional
+    ```
+    python3 -m venv venv
+    ```
+
 * install robotframework
     ```
     pip3 install robotframework
@@ -25,10 +27,6 @@ When you run ls you should see all folders and files from finalProject folder
 * install seleniumlibrary
     ```
     pip3 install robotframework-seleniumlibrary
-    ```
-* create my venv
-    ```
-    python3 -m venv venv
     ```
 * check what you already have
     ```
@@ -38,10 +36,10 @@ When you run ls you should see all folders and files from finalProject folder
 
     pip3  install -r requirements.txt
 
-## Project Settings
+## Project Settings - this is optional BUT nice to have 
 * Right click on the project folder in the code editor
 * Copy full path 
-* Go to the Project Settings -for mac klick on the project folder and pres ⌘ , for Win File -> Settings
+* Go to the Project Settings -for mac click on the project folder and pres ⌘ , for Win File -> Settings
 * Click on Language & Frameworks -> Robot Framework (Project)
 * Paste full path into Language Server Python 
 
